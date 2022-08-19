@@ -14,7 +14,6 @@
 }
 body{
     font-family: var(--main-font-family);
-    font-size: 14px;
     letter-spacing: 0.03em;
     background-color: var(--white-color);
     color:var(--main-text-color);
@@ -79,16 +78,20 @@ body{
     text-align: center;
     text-transform: uppercase;    
 }
-.hero-button{
-    font-style: normal;
-    font-weight: 700;
+.button{
     font-size: 16px;
-    line-height: 1.88;
-    color:var(--white-color);
-    background-color: var(--accent-color);
+
     display: flex;
     align-items: center;
     text-align: center;
+    cursor: pointer;
+}
+.hero-button{
+    font-style: normal;
+    font-weight: 700;    
+    line-height: 1.88;
+    color:var(--white-color);
+    background-color: var(--accent-color);    
 }
 
 .section-title{
@@ -103,6 +106,10 @@ body{
     font-size: 14px;
     color:var(--second-text-color)
 }
+.uniq-text{
+    font-size: 14px;
+    line-height: 1.71;
+}
 .team-title{
     font-size: 16px;
     line-height: 1.19;
@@ -110,5 +117,38 @@ body{
     color:var(--second-text-color);  
     
 }
+.footer{
+    background-color: var(--bg-color);
+    
+}
+.footer-link{
+    color:var(--address-color);
+    font-style: normal;
+}
+.footer-link:hover, .footer-link:focus{
+    color:var(--accent-color);
+}
+.map{
+    color: var(--white-color);
+}
+/*portfolio*/
+.filter{
+    font-weight: 500;
+    line-height: 1.62;
+    color:var(--second-text-color);
+}
+.filter.active{
+    background-color: var(--accent-color);
+    color:var(--white-color);
+}
+.portf-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 
-
+    color: var(--second-text-color);
+}
+.portf-text{
+    line-height: 1.88;
+}
