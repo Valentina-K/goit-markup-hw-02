@@ -65,6 +65,7 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .hero{
     background-color: var(--bg-color);
@@ -93,7 +94,15 @@ body{
     color:var(--white-color);
     background-color: var(--accent-color);    
 }
-
+.uniq-title{
+    font-size: 14px;
+    color:var(--second-text-color);
+    text-transform: uppercase; 
+}
+.uniq-text{
+    font-size: 14px;
+    line-height: 1.71;
+}
 .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -102,24 +111,16 @@ body{
 
     color: var(--second-text-color);
 }
-.uniq-title{
-    font-size: 14px;
-    color:var(--second-text-color)
-}
-.uniq-text{
-    font-size: 14px;
-    line-height: 1.71;
+.team{    
+    line-height: 1.19;
 }
 .team-title{
     font-size: 16px;
-    line-height: 1.19;
     font-weight: 500;    
-    color:var(--second-text-color);  
-    
+    color:var(--second-text-color);      
 }
 .footer{
-    background-color: var(--bg-color);
-    
+    background-color: var(--bg-color);    
 }
 .footer-link{
     color:var(--address-color);
