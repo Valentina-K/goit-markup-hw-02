@@ -14,6 +14,7 @@
 }
 body{
     font-family: var(--main-font-family);
+    font-size: 14px;
     letter-spacing: 0.03em;
     background-color: var(--white-color);
     color:var(--main-text-color);
@@ -55,6 +56,9 @@ body{
 .nav:hover,.nav:focus{
     color:var(--accent-color);
 }
+.nav.current{
+    color:var(--accent-color);
+}
 .address{
     color:var(--main-text-color);
 }
@@ -63,7 +67,6 @@ body{
 }
 .link.nav, .link.address{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -80,6 +83,7 @@ body{
     text-transform: uppercase;    
 }
 .button{
+    font-family: var(--main-font-family);
     font-size: 16px;
 
     display: flex;
@@ -91,6 +95,7 @@ body{
     font-style: normal;
     font-weight: 700;    
     line-height: 1.88;
+    letter-spacing: 0.06em;
     color:var(--white-color);
     background-color: var(--accent-color);    
 }
@@ -100,7 +105,6 @@ body{
     text-transform: uppercase; 
 }
 .uniq-text{
-    font-size: 14px;
     line-height: 1.71;
 }
 .section-title{
@@ -119,6 +123,9 @@ body{
     font-weight: 500;    
     color:var(--second-text-color);      
 }
+.team-title + p{
+    font-size: 16px;
+}
 .footer{
     background-color: var(--bg-color);    
 }
@@ -136,7 +143,12 @@ body{
 .filter{
     font-weight: 500;
     line-height: 1.62;
+    letter-spacing: 0.03em;
     color:var(--second-text-color);
+}
+.filter:hover, .filter:focus{
+    background-color: var(--accent-color);
+    color:var(--white-color);
 }
 .filter.active{
     background-color: var(--accent-color);
@@ -151,5 +163,6 @@ body{
     color: var(--second-text-color);
 }
 .portf-text{
+    font-size: 16px;
     line-height: 1.88;
 }
